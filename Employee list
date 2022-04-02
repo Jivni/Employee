@@ -1,0 +1,24 @@
+class Employee {
+    String Name;
+    int YearOfJoining;
+    String Address;
+    Employee(String Name, int YearOfJoining, String Address) {
+        this.Name=Name;
+        this.YearOfJoining=YearOfJoining;
+        this.Address=Address;
+    }
+}
+class A{
+    public static void main(String[] args) {
+        String Name;
+        String Joiningyear;
+        String Address;
+        System.out.println("Name"+  "Joiningyear"+   "Address");
+        Employee a = new Employee("Robert Wallstreet",1994,"64C");
+        System.out.println(a.Name + a.YearOfJoining + a.Address);
+        Employee b = new Employee("Sam Wallstreet",2000,"68D");
+        System.out.println(b.Name + b.YearOfJoining +  b.Address);
+        Employee c = new Employee("John Wallstreet",1999,"26B");
+        System.out.println(c.Name +c.YearOfJoining + c.Address);
+    }
+}
